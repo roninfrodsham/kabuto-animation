@@ -1,0 +1,18 @@
+html {
+  height: 100%
+}
+body {
+  background-color: #EEABCE;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kabuto {
+  height: 20vmin;
+}

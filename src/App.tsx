@@ -3,10 +3,13 @@ import Kabuto from './Kabuto'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [toggle, setToggle] = useState(false)
 
   return (
-    <Kabuto />
+    <>
+      <Kabuto toggleAnimation={toggle} />
+      <button onClick={() => setToggle(!toggle)}>Toggle Animation</button>
+    </>
   )
 }
 

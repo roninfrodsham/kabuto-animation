@@ -1,5 +1,7 @@
 # kabuto-animation
 
+Animation test for Roninjs website svg's
+
 ## Development
 
 From your terminal:

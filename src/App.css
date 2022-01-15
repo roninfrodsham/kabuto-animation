@@ -1,18 +1,22 @@
-html {
-  height: 100%
-}
-body {
-  background-color: #EEABCE;
-  height: 100%;
-}
-
 #root {
   height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .kabuto {
   height: 20vmin;
+}
+
+button {
+  background-color: #00582B;
+  border: 0;
+  outline: 0;
+  color: #EEABCE;
+  padding: 10px 20px;
+  font-size: 21px;
+  margin-top: 10%;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }

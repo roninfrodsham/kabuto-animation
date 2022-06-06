@@ -27,7 +27,6 @@ function Kabuto({ toggleAnimation }: KabutoProps) {
     )
   }
 
-  // toggling animation doesn't work in function
   function Mask() {
     return (
       <>
@@ -65,8 +64,8 @@ function Kabuto({ toggleAnimation }: KabutoProps) {
       y: 0,
       transition: {
         type: "spring",
-        stiffness: 130,
-        damping: 15,
+        stiffness: 160,
+        damping: 12,
       },
       default: {
         duration: 0.5,

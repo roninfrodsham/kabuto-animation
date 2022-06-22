@@ -46,7 +46,7 @@ function Kabuto({ toggleAnimation }: KabutoProps) {
     visible: {
       opacity: 1,
       transition: {
-        duration: 0.6,
+        duration: 1,
         type: "tween",
         ease: "easeInOut",
         when: "beforeChildren",
